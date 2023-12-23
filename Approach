@@ -1,0 +1,16 @@
+!! UNDER DEVELOPMENT !!
+USED LL and Arrays (part of problem statement)
+
+As C language lacks OOPs concepts, I've used structures to tackle this problem. (OOPs was a preferable choice as to create a new book object or a new customer object)
+
+Still have'nt completed the efficiency part like using tail pointers for books LL or customer's orders.
+
+There is a Book Store starting pointer 'root' pointing to the LL of books available in the store which can only be manipulated by owner (have'nt added any authentication.)
+
+Then there is Orders array where each element points to the Node of the customer.
+
+Each node of customer structure consists its name, phone and unique ID, and a pointer pointing to the LL of that customer's orders (struct B)
+
+
+
+
