@@ -1,12 +1,15 @@
 Problem Statement: 
 Bookstore System Creating a simple bookstore system. 
+
 The system will keep track of books, their authors, and the number of copies available in the store. Additionally, 
 the system will handle customer orders.
 The system will support the following operations: Adding Books: The system will allow the store owner to add 
 new books, including information about the book's title, author, ISBN, and the number of copies available in the 
 store. 
+
 Customer Orders: Customers can place orders for books. Each order may contain multiple books, and the 
 system will keep track of the books that need to be shipped for each order. 
+
 Inventory Management: The system will update the inventory when books are sold or restocked. If a customer 
 orders a book, the system will reduce the available quantity. If new copies of a book arrive at the store, the 
 system will increase the available quantity
